@@ -1,0 +1,12 @@
+res://scenes/main.tscn
+res://scenes/bg.tscn
+res://scenes/ground.tscn
+res://scenes/hud.tscn
+res://scenes/game_over.tscn
+res://scenes/banana.tscn
+res://scenes/bird.tscn
+res://scenes/dino.tscn
+res://scenes/main.gd
+res://scenes/monkey.tscn
+res://scenes/rock.tscn
+res://scenes/stump.tscn
