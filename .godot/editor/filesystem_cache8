@@ -1,42 +1,41 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1717675653
-export_presets.cfg::TextFile::-1::1717506510::0::1::::<><>::
-::res://assets/::1716380968
-::res://assets/fonts/::1716380976
-retro.ttf::FontFile::1318944456417729264::1716380968::1716380976::1::::<><>::
-::res://assets/img/::1717503899
-monkey duck 2.png::CompressedTexture2D::5202293614050976396::1717157968::1717157984::1::::<><>::
-monkey duck.png::CompressedTexture2D::229926440651350758::1717157753::1717157810::1::::<><>::
-monkey idle.png::CompressedTexture2D::7202623630970599956::1715346076::1716383301::1::::<><>::
-monkey jump.png::CompressedTexture2D::5363896728136718725::1716381820::1716382800::1::::<><>::
-Monkey run.png::CompressedTexture2D::449103135075614215::1715864775::1716383301::1::::<><>::
-::res://assets/img/background/::1716380976
-ground.png::CompressedTexture2D::6627655297750191785::1716380968::1716380976::1::::<><>::
-plx-1.png::CompressedTexture2D::6494578620395709108::1716380968::1716380976::1::::<><>::
-plx-2.png::CompressedTexture2D::3718164529603147279::1716380968::1716380976::1::::<><>::
-plx-3.png::CompressedTexture2D::8561431993877397156::1716380968::1716380976::1::::<><>::
-plx-4.png::CompressedTexture2D::6719226110955013132::1716380968::1716380976::1::::<><>::
-plx-5.png::CompressedTexture2D::6844083270951329119::1716380968::1716380976::1::::<><>::
-::res://assets/img/obstacles/::1717504967
-banana.png::CompressedTexture2D::5318271975430098245::1717159043::1717504225::1::::<><>::
-bird.png::CompressedTexture2D::250355767919069810::1717504913::1717504967::1::::<><>::
-rock.png::CompressedTexture2D::7908483322955529458::1716380968::1716380976::1::::<><>::
-stump.png::CompressedTexture2D::4826044796657920035::1716380968::1716380976::1::::<><>::
-::res://assets/sound/::1716380977
-jump.wav::AudioStreamWAV::8427713109939586522::1716380968::1716380977::1::::<><>::
-::res://scenes/::1717505955
-banana.tscn::PackedScene::528291949347492309::1717505955::0::1::::<><>::uid://ch1hfr082sepx::::res://assets/img/obstacles/banana.png
-barrel.tscn::PackedScene::7231171105358748116::1717505252::0::1::::<><>::res://assets/img/obstacles/barrel.png
-bg.tscn::PackedScene::3460821473438613596::1717505955::0::1::::<><>::uid://cysa04ywr7oi3::::res://assets/img/background/plx-1.png<>uid://bs8dvkk1vgt5h::::res://assets/img/background/plx-2.png<>uid://dt8hsfog1mjyq::::res://assets/img/background/plx-3.png<>uid://c2y3w4ij2n3sa::::res://assets/img/background/plx-4.png<>uid://c4rlb0tycrggt::::res://assets/img/background/plx-5.png
-bird.gd::GDScript::-1::1716380968::0::1::::<>Area2D<>::
-bird.tscn::PackedScene::6007733449415219294::1717505955::0::1::::<><>::res://scenes/bird.gd<>uid://dtjk8kb43ba5::::res://assets/img/obstacles/bird.png
-dino.tscn::PackedScene::1447876484348993598::1717505955::0::1::::<><>::res://scenes/monkey.gd<>uid://dscpg6m666dta::::res://assets/sound/jump.wav<>uid://cgebashnch3gy::::res://assets/img/monkey duck 2.png<>uid://davafnw3s1ae3::::res://assets/img/monkey idle.png<>uid://ciokuilcj3iwj::::res://assets/img/monkey jump.png<>uid://gnswsplms62f::::res://assets/img/Monkey run.png
-game_over.tscn::PackedScene::802172542008081756::1717505955::0::1::::<><>::uid://s15272omc2m3::::res://assets/fonts/retro.ttf
-ground.tscn::PackedScene::4524411057015233385::1717505955::0::1::::<><>::uid://c1oqrqxusukd2::::res://assets/img/background/ground.png
-hud.tscn::PackedScene::821977763189034594::1717505955::0::1::::<><>::uid://s15272omc2m3::::res://assets/fonts/retro.ttf
-main.gd::GDScript::-1::1717505466::0::1::::<>Node<>::
-main.tscn::PackedScene::3061185939289904392::1717505955::0::1::::<><>::res://scenes/main.gd<>uid://bpkphu8qj137m::::res://scenes/bg.tscn<>uid://b5pwnh1tmyrnl::::res://scenes/ground.tscn<>uid://uvmkxf0c52c5::::res://scenes/dino.tscn<>uid://lyf4a3sklk1o::::res://scenes/hud.tscn<>uid://lotwuige1aee::::res://scenes/game_over.tscn
-monkey.gd::GDScript::-1::1716380968::0::1::::<>CharacterBody2D<>::
-monkey.tscn::PackedScene::2917223642333064235::1717505161::0::1::::<><>::res://scenes/dino.gd<>uid://dscpg6m666dta::::res://assets/sound/jump.wav<>uid://cgebashnch3gy::::res://assets/img/monkey duck 2.png<>uid://davafnw3s1ae3::::res://assets/img/monkey idle.png<>uid://ciokuilcj3iwj::::res://assets/img/monkey jump.png<>uid://gnswsplms62f::::res://assets/img/Monkey run.png
-rock.tscn::PackedScene::1335145453993080953::1716380968::0::1::::<><>::uid://dkw6thaio0hfe::::res://assets/img/obstacles/rock.png
-stump.tscn::PackedScene::3727625352967846424::1716380968::0::1::::<><>::uid://ca01iuenpdkvj::::res://assets/img/obstacles/stump.png
+::res://::1717978280
+::res://assets/::1717977548
+::res://assets/fonts/::1717977548
+retro.ttf::FontFile::1318944456417729264::1717977548::1717977548::1::::<><>::
+::res://assets/img/::1717977548
+monkey duck 2.png::CompressedTexture2D::5202293614050976396::1717977548::1717977548::1::::<><>::
+monkey duck.png::CompressedTexture2D::229926440651350758::1717977548::1717977548::1::::<><>::
+monkey idle.png::CompressedTexture2D::7202623630970599956::1717977548::1717977548::1::::<><>::
+monkey jump.png::CompressedTexture2D::5363896728136718725::1717977548::1717977548::1::::<><>::
+Monkey run.png::CompressedTexture2D::449103135075614215::1717977548::1717977548::1::::<><>::
+::res://assets/img/background/::1717977548
+ground.png::CompressedTexture2D::6627655297750191785::1717977548::1717977548::1::::<><>::
+plx-1.png::CompressedTexture2D::6494578620395709108::1717977548::1717977548::1::::<><>::
+plx-2.png::CompressedTexture2D::3718164529603147279::1717977548::1717977548::1::::<><>::
+plx-3.png::CompressedTexture2D::8561431993877397156::1717977548::1717977548::1::::<><>::
+plx-4.png::CompressedTexture2D::6719226110955013132::1717977548::1717977548::1::::<><>::
+plx-5.png::CompressedTexture2D::6844083270951329119::1717977548::1717977548::1::::<><>::
+::res://assets/img/obstacles/::1717977548
+banana.png::CompressedTexture2D::5318271975430098245::1717977548::1717977548::1::::<><>::
+bird.png::CompressedTexture2D::250355767919069810::1717977548::1717977548::1::::<><>::
+rock.png::CompressedTexture2D::7908483322955529458::1717977548::1717977548::1::::<><>::
+stump.png::CompressedTexture2D::4826044796657920035::1717977548::1717977548::1::::<><>::
+::res://assets/sound/::1717977548
+jump.wav::AudioStreamWAV::8427713109939586522::1717977548::1717977548::1::::<><>::
+::res://scenes/::1717978255
+banana.tscn::PackedScene::528291949347492309::1717978255::0::1::::<><>::uid://ch1hfr082sepx::::res://assets/img/obstacles/banana.png
+barrel.tscn::PackedScene::7231171105358748116::1717977548::0::1::::<><>::res://assets/img/obstacles/barrel.png
+bg.tscn::PackedScene::3460821473438613596::1717978255::0::1::::<><>::uid://cysa04ywr7oi3::::res://assets/img/background/plx-1.png<>uid://bs8dvkk1vgt5h::::res://assets/img/background/plx-2.png<>uid://dt8hsfog1mjyq::::res://assets/img/background/plx-3.png<>uid://c2y3w4ij2n3sa::::res://assets/img/background/plx-4.png<>uid://c4rlb0tycrggt::::res://assets/img/background/plx-5.png
+bird.gd::GDScript::-1::1717977548::0::1::::<>Area2D<>::
+bird.tscn::PackedScene::6007733449415219294::1717978255::0::1::::<><>::res://scenes/bird.gd<>uid://dtjk8kb43ba5::::res://assets/img/obstacles/bird.png
+dino.tscn::PackedScene::1595540012042023258::1717978255::0::1::::<><>::res://scenes/monkey.gd<>uid://dscpg6m666dta::::res://assets/sound/jump.wav<>uid://cgebashnch3gy::::res://assets/img/monkey duck 2.png<>uid://davafnw3s1ae3::::res://assets/img/monkey idle.png<>uid://ciokuilcj3iwj::::res://assets/img/monkey jump.png<>uid://gnswsplms62f::::res://assets/img/Monkey run.png
+game_over.tscn::PackedScene::802172542008081756::1717978255::0::1::::<><>::uid://s15272omc2m3::::res://assets/fonts/retro.ttf
+ground.tscn::PackedScene::4524411057015233385::1717978255::0::1::::<><>::uid://c1oqrqxusukd2::::res://assets/img/background/ground.png
+hud.tscn::PackedScene::821977763189034594::1717978255::0::1::::<><>::uid://s15272omc2m3::::res://assets/fonts/retro.ttf
+main.gd::GDScript::-1::1717977548::0::1::::<>Node<>::
+main.tscn::PackedScene::3061185939289904392::1717978255::0::1::::<><>::res://scenes/main.gd<>uid://bpkphu8qj137m::::res://scenes/bg.tscn<>uid://b5pwnh1tmyrnl::::res://scenes/ground.tscn<>uid://wy5ktndrr13c::::res://scenes/dino.tscn<>uid://lyf4a3sklk1o::::res://scenes/hud.tscn<>uid://lotwuige1aee::::res://scenes/game_over.tscn
+monkey.gd::GDScript::-1::1717977548::0::1::::<>CharacterBody2D<>::
+monkey.tscn::PackedScene::2917223642333064235::1717978255::0::1::::<><>::res://scenes/monkey.gd<>uid://dscpg6m666dta::::res://assets/sound/jump.wav<>uid://cgebashnch3gy::::res://assets/img/monkey duck 2.png<>uid://davafnw3s1ae3::::res://assets/img/monkey idle.png<>uid://ciokuilcj3iwj::::res://assets/img/monkey jump.png<>uid://gnswsplms62f::::res://assets/img/Monkey run.png
+rock.tscn::PackedScene::1335145453993080953::1717978255::0::1::::<><>::uid://dkw6thaio0hfe::::res://assets/img/obstacles/rock.png
+stump.tscn::PackedScene::3727625352967846424::1717978255::0::1::::<><>::uid://ca01iuenpdkvj::::res://assets/img/obstacles/stump.png
