@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=3 uid="uid://bhtein0chknfn"]
+[gd_scene load_steps=24 format=3 uid="uid://bhtein0chknfn"]
 
 [ext_resource type="Script" path="res://scenes/monkey.gd" id="1_1stpw"]
 [ext_resource type="AudioStream" uid="uid://dscpg6m666dta" path="res://assets/sound/jump.wav" id="2_60go1"]
@@ -15,13 +15,13 @@ region = Rect2(0, 0, 1024, 1024)
 atlas = ExtResource("2_lknle")
 region = Rect2(1024, 0, 1024, 1024)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_mkt0q"]
-atlas = ExtResource("2_lknle")
-region = Rect2(2048, 0, 1024, 1024)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_d12gd"]
 atlas = ExtResource("2_lknle")
 region = Rect2(3072, 0, 1024, 1024)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mkt0q"]
+atlas = ExtResource("2_lknle")
+region = Rect2(2048, 0, 1024, 1024)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_j7q8w"]
 atlas = ExtResource("3_hihit")
@@ -81,10 +81,10 @@ animations = [{
 "texture": SubResource("AtlasTexture_h1l5s")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_mkt0q")
+"texture": SubResource("AtlasTexture_d12gd")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_d12gd")
+"texture": SubResource("AtlasTexture_mkt0q")
 }],
 "loop": true,
 "name": &"duck",
@@ -142,15 +142,8 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_whux2"]
-size = Vector2(10, 16)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_t1b5m"]
-size = Vector2(10, 14)
-
 [node name="Monkey" type="CharacterBody2D"]
 z_index = 1
-scale = Vector2(0.17, 0.17)
 script = ExtResource("1_1stpw")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -161,14 +154,12 @@ animation = &"duck"
 autoplay = "idle"
 frame_progress = 0.163741
 
-[node name="RunCol" type="CollisionShape2D" parent="."]
-position = Vector2(-1, 0)
-shape = SubResource("RectangleShape2D_whux2")
-
-[node name="DuckCol" type="CollisionShape2D" parent="."]
-position = Vector2(-1, 1)
-shape = SubResource("RectangleShape2D_t1b5m")
-
 [node name="JumpSound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("2_60go1")
 volume_db = -25.0
+
+[node name="RunCol" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-78, -229, -53, -231, -8, -306, 241, -295, 253, -262, 296, -214, 299, -89, 380, -63, 379, 105, 287, 184, 292, 290, 206, 299, -68, 296)
+
+[node name="DuckCol" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-154, -55, 22, -115, 118, -159, 314, -131, 414, -163, 414, -53, 508, -5, 562, 51, 566, 171, 316, 257, 28, 203, -148, 71)
